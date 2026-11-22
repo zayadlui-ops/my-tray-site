@@ -1,0 +1,22 @@
+{
+  "catalog_version": 1,
+  "application": {
+    "name": "My Tray",
+    "version": "Не опубліковано",
+    "release_date": "",
+    "download_url": "",
+    "size": "",
+    "system_requirements": "Windows (уточнюється)",
+    "sha256": "",
+    "release_notes": "Офіційний реліз ще не внесено."
+  },
+  "categories": [
+    "Система та моніторинг",
+    "Робочий інструментарій",
+    "Мультимедіа",
+    "Персоналізація",
+    "Продуктивність",
+    "Інші"
+  ],
+  "modules": []
+}
