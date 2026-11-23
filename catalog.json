@@ -10,7 +10,8 @@
     "size": "",
     "system_requirements": "Windows (уточнюється)",
     "sha256": "",
-    "release_notes": "Офіційний реліз ще не внесено."
+    "release_notes": "Офіційний реліз ще не внесено.",
+    "size_bytes": null
   },
   "categories": [
     "Система та моніторинг",
@@ -55,7 +56,9 @@
       "download_url": "",
       "sha256": "",
       "repository_url": "",
-      "preview_url": ""
+      "preview_url": "",
+      "entry": "",
+      "min_app_version": ""
     },
     {
       "id": "network-monitor",
@@ -91,7 +94,9 @@
       "download_url": "",
       "sha256": "",
       "repository_url": "",
-      "preview_url": ""
+      "preview_url": "",
+      "entry": "",
+      "min_app_version": ""
     },
     {
       "id": "clipboard-manager",
@@ -127,7 +132,9 @@
       "download_url": "",
       "sha256": "",
       "repository_url": "",
-      "preview_url": ""
+      "preview_url": "",
+      "entry": "",
+      "min_app_version": ""
     },
     {
       "id": "minid",
@@ -153,7 +160,9 @@
       "download_url": "",
       "sha256": "",
       "repository_url": "",
-      "preview_url": ""
+      "preview_url": "",
+      "entry": "",
+      "min_app_version": ""
     },
     {
       "id": "toolbari",
@@ -179,7 +188,9 @@
       "download_url": "",
       "sha256": "",
       "repository_url": "",
-      "preview_url": ""
+      "preview_url": "",
+      "entry": "",
+      "min_app_version": ""
     }
   ]
 }

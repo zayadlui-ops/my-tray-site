@@ -5,6 +5,8 @@
 ## Файли
 - `index.html`, `style.css`, `app.js` — сайт (UA/EN).
 - `catalog.json` — єдине джерело даних: програма, категорії, модулі. Той самий файл читатиме застосунок My Tray.
+- `admin/` — адмін-панель каталогу. `scripts/`, `.github/` — автоперевірка каталогу.
+- `ECOSYSTEM_UA.md` — схема екосистеми, інструкції, рекомендації, план.
 - `media/` — відео модулів. `favicon.svg`, `robots.txt`, `sitemap.xml`.
 - `MODULE_FORMAT.md` — поля каталогу. `UPDATE_GUIDE_UA.md` — інструкція публікації та оновлення.
 
