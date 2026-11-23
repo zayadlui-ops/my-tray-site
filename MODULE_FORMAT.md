@@ -61,3 +61,13 @@ The website currently reads `catalog.json` at the repository root. The same JSON
 7. Install to a defined module directory and maintain rollback/uninstall support.
 
 The website's current JavaScript only displays and links to metadata downloads. It does **not** install, validate, or execute modules. Client integration, package manifest validation, signatures, moderation, and installer logic are future work.
+
+## v7: поля для сайту (необов’язкові, зворотно сумісні)
+- `abbr`: 2–3 літери на орбіті (наприклад `MW`). Якщо порожньо, береться з назви: «Motion Wallpaper» → MW.
+- `features` / `features_en`: список можливостей на сторінці модуля.
+- `video_url`: коротке відео функціоналу, HTML5 `.mp4` (H.264) або `.webm`; шлях `media/файл.mp4` або `https://…`. Flash не підтримується жодним браузером.
+- `poster_url`: кадр-обкладинка відео.
+- `name_en`, `short_description_en`, `description_en`: англійські тексти.
+- Порядок у `modules` = порядок орбіт від центру назовні. Новий модуль, доданий у кінець списку, сам з’являється на новій зовнішній орбіті; існуючі орбіти не зсуваються (до 6 модулів). Статуси `hidden` і `archived` на орбіті не показуються.
+
+**Важливо:** сайт модулі не завантажує. Поля `download_url` і `sha256` читає лише програма My Tray; на сторінках сайту вони не відображаються.
