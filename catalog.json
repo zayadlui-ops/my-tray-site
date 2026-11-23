@@ -1,17 +1,111 @@
 {
-  "catalog_version": 1,
-  "updated_at": "2026-11-22",
-  "source": "https://360.pp.ua/catalog.json",
-  "application": {
+  "schema_version": 1,
+  "generated": "2026-11-22",
+  "demo": true,
+  "app": {
     "name": "My Tray",
-    "version": "Не опубліковано",
-    "release_date": "",
-    "download_url": "",
-    "size": "",
-    "system_requirements": "Windows (уточнюється)",
-    "sha256": "",
-    "release_notes": "Офіційний реліз ще не внесено."
+    "version": null,
+    "released": null,
+    "download_url": null,
+    "size_bytes": null,
+    "sha256": null,
+    "requirements": null,
+    "notes": [],
+    "releases": [],
+    "system": "10/11"
   },
-  "categories": ["Система та моніторинг", "Робочий інструментарій", "Мультимедіа", "Персоналізація", "Продуктивність", "Інші"],
-  "modules": []
+  "categories": [
+    {
+      "id": "system",
+      "name": "Система та моніторинг",
+      "name_en": "System and monitoring"
+    },
+    {
+      "id": "tools",
+      "name": "Робочий інструментарій",
+      "name_en": "Work tools"
+    },
+    {
+      "id": "media",
+      "name": "Мультимедіа",
+      "name_en": "Multimedia"
+    },
+    {
+      "id": "personal",
+      "name": "Персоналізація",
+      "name_en": "Personalization"
+    },
+    {
+      "id": "productivity",
+      "name": "Продуктивність",
+      "name_en": "Productivity"
+    },
+    {
+      "id": "other",
+      "name": "Інші",
+      "name_en": "Other"
+    }
+  ],
+  "modules": [
+    {
+      "id": "clipboard-manager",
+      "name": "Clipboard Manager",
+      "summary": "Легка історія буфера обміну Windows із пошуком і закріпленими записами. Усе зберігається лише на вашому комп’ютері.",
+      "description": "Зберігає текст, посилання, багаторядкові фрагменти та зображення з датою й часом. Дублікати піднімаються нагору, закріплені записи не видаляються автоочищенням. Працює у фоні без постійного опитування буфера.",
+      "features": [
+        "Пошук по історії",
+        "Окремий розділ закріплених",
+        "Гаряча клавіша Ctrl+Shift+V (змінювана)",
+        "Пауза запису та виключення програм",
+        "Без мережі й телеметрії"
+      ],
+      "category": "productivity",
+      "status": "planned",
+      "version": null,
+      "size_bytes": null,
+      "sha256": null,
+      "download_url": null,
+      "icon": null,
+      "preview": null,
+      "video": null,
+      "requires": "Windows 10/11, права адміністратора не потрібні",
+      "license": null,
+      "author": null,
+      "source_url": null,
+      "updated": "2026-11-21",
+      "history": [],
+      "summary_en": "Lightweight Windows clipboard history with search and pinned items. Everything stays on your computer.",
+      "description_en": "Stores text, links, multi-line snippets and images with date and time. Pinned items are never removed by auto-cleanup."
+    },
+    {
+      "id": "motion-wallpaper",
+      "name": "Motion Wallpaper",
+      "summary": "Відеошпалери для робочого столу Windows з мінімальним навантаженням. Автоматично ставляться на паузу в повноекранних програмах.",
+      "description": "Локальні відео (спочатку MP4 H.264) у циклі, без звуку, за іконками робочого столу. Режими Fill, Fit і Stretch, бібліотека власних відео, пауза при блокуванні екрана та сні.",
+      "features": [
+        "Режими Fill / Fit / Stretch",
+        "Автопауза у повноекранних програмах",
+        "Бібліотека локальних відео",
+        "Гаряча клавіша паузи",
+        "Без звуку, реклами й телеметрії"
+      ],
+      "category": "personal",
+      "status": "planned",
+      "version": null,
+      "size_bytes": null,
+      "sha256": null,
+      "download_url": null,
+      "icon": null,
+      "preview": null,
+      "video": null,
+      "requires": "Windows 10/11",
+      "license": null,
+      "author": null,
+      "source_url": null,
+      "updated": "2026-11-22",
+      "history": [],
+      "summary_en": "Video wallpapers for the Windows desktop with minimal load. Pauses automatically in full-screen apps.",
+      "description_en": "Local videos in a loop, muted, behind desktop icons. Fill, Fit and Stretch modes, and a library of your own videos."
+    }
+  ]
 }
